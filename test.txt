@@ -1,0 +1,4 @@
+Hello World
+This is a sample text file.
+Encryption and Decryption in C.
+VS Code + GCC setup is working!
