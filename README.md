@@ -1,7 +1,7 @@
-# 🔐 Encryption-And-Decryption
+# 🔐 Encryption and Decryption
 
-A simple **C-based program** that demonstrates **basic encryption and decryption techniques** for secure text processing.  
-This project is designed for **beginners** to understand how data can be transformed to protect information.
+A simple **C-based program** that demonstrates **basic encryption and decryption** techniques for secure text processing.  
+This project is intended for **beginners** to understand fundamental concepts of cryptography and file handling in C.
 
 ---
 
@@ -11,7 +11,7 @@ This project is designed for **beginners** to understand how data can be transfo
 - 🔓 Decrypt cipher text back to original text  
 - 📄 File-based input and output support  
 - ⚡ Lightweight and fast execution  
-- 🎓 Beginner-friendly C program  
+- 🎓 Beginner-friendly implementation  
 
 ---
 
@@ -25,23 +25,14 @@ This project is designed for **beginners** to understand how data can be transfo
 
 ## 📂 Project Structure
 
-
----
-
-## 🧑‍💻 How It Works
-
-1. User provides text (or file input)
-2. Text is encrypted using a basic algorithm
-3. Encrypted data is saved to a file
-4. Same logic is used to decrypt and retrieve original text
-
-> ⚠️ **Note:** This project is for learning purposes and does not use advanced cryptographic standards.
-
----
-
-## ▶️ How to Run
-
-### Compile the Program
-```bash
+```text
+Encryption-And-Decryption/
+│
+├── Encryption.c     # Main source code
+├── Encryption.exe   # Compiled executable (Windows)
+├── input.txt        # Sample input file
+├── output.txt       # Encrypted/Decrypted output
+├── test.txt         # Test data
+└── README.md        # Project documentation
 gcc Encryption.c -o Encryption
 ./Encryption
